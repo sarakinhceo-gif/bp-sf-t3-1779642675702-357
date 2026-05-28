@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="ko" class="no-js">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="bpaas-design-system" content="brutalist-avantgarde">
+    <meta name="bpaas-design-theme" content="kr-neon-void">
+    <title>블로그 – AEGIS WARMER | 백링크 자동화 혁명</title>
+    <meta name="description" content="서버 웜업 기술로 백링크 자동화를 혁신하십시오. 마포 본사 aegis-warmer 시스템이 귀하의 SEO 파워를 극대화합니다. PBN 권위를 하루아침에. 지금 010-6279-0862로 웜업을 시작하십시오.">
+    <meta name="keywords" content="백링크 자동화 프로그램, 서버 웜업, aegis-warmer, PBN, 마포 SEO, 백링크 파워, tier3 PBN">
+    <link rel="canonical" href="https://sf-t3-1779642675702-357.pages.dev/blog">
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="블로그 – AEGIS WARMER">
+    <meta property="og:description" content="서버 웜업 기술로 백링크 자동화를 혁신하십시오. 마포 본사 aegis-warmer 시스템이 귀하의 SEO 파워를 극대화합니다.">
+    <meta property="og:url" content="https://sf-t3-1779642675702-357.pages.dev/blog">
+    <meta property="og:locale" content="ko_KR">
+    <meta name="twitter:card" content="summary_large_image">
+    <style>
+        /* ------------------------------------------------------------
+           BRUTALIST-AVANTGARDE / KR-NEON-VOID 디자인 시스템 (완전 재사용)
+           ------------------------------------------------------------ */
+        :root {
+            --bg: #0b0c0e;
+            --text: #e0e0e0;
+            --accent: #00ffc8;
+            --accent2: #ff0055;
+            --accent3: #f0e100;
+            --grid: 8px;
+            --font-mono: 'JetBrains Mono', 'Menlo', monospace;
+            --font-sans: 'Inter', 'Noto Sans KR', sans-serif;
+            --border-w: 3px;
+            --shadow: 8px 8px 0 rgba(0, 255, 200, 0.25);
+        }
+        *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+        html { font-size: 16px; scroll-behavior: smooth; }
+        body {
+            background: var(--bg);
+            color: var(--text);
+            font-family: var(--font-sans);
+            line-height: 1.6;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            padding: 0;
+        }
+        a { color: var(--accent); text-decoration: none; border-bottom: 2px solid transparent; transition: 0.15s; }
+        a:hover { border-bottom-color: var(--accent); color: #fff; }
+        img { max-width: 100%; display: block; }
+        /* ---------- 헤더 + 내비게이션 (hamburger-menu 패턴) ---------- */
+        header {
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            background: rgba(11,12,14,0.92);
+            backdrop-filter: blur(6px);
+            border-bottom: var(--border-w) solid var(--accent);
+            padding: 0 2rem;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            height: 70px;
+        }
+        .logo a {
+            font-family: var(--font-mono);
+            font-size: 1.5rem;
+            font-weight: 800;
+            letter-spacing: -0.04em;
+            color: var(--accent);
+            border: none;
+            text-transform: uppercase;
+            text-shadow: 0 0 12px var(--accent);
+        }
+        .logo a:hover { color: #fff; text-shadow: 0 0 20px var(--accent); }
+        .hamburger {
+            display: none;
+            flex-direction: column;
+            justify-content: space-around;
+            width: 30px;
+            height: 24px;
+            background: transparent;
+            border: none;
+            cursor: pointer;
+            padding: 0;
+            z-index: 110;
+        }
+        .hamburger span {
+            display: block;
+            width: 100%;
+            height: 3px;
+            background: var(--accent);
+            border-radius: 2px;
+            transition: 0.3s;
+        }
+        .hamburger.active span:nth-child(1) { transform: translateY(9px) rotate(45deg); }
+        .hamburger.active span:nth-child(2) { opacity: 0; }
+        .hamburger.active span:nth-child(3) { transform: translateY(-9px) rotate(-45deg); }
+        nav { display: flex; align-items: center; gap: 2rem; }
+        nav a {
+            font-family: var(--font-mono);
+            font-size: 0.9rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.08em;
+            color: var(--text);
+            border: none;
+            padding: 0.3rem 0;
+            position: relative;
+        }
+        nav a::after {
+            content: '';
+            position: absolute;
+            left: 0; bottom: -2px;
+            width: 0; height: 3px;
+            background: var(--accent2);
+            transition: 0.25s;
+        }
+        nav a:hover::after,
+        nav a.active::after { width: 100%; }
+        nav a.active { color: var(--accent); }
+        /* ---------- 메인 ---------- */
+        main {
+            flex: 1;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 3rem 2rem 5rem;
+            width: 100%;
+        }
+        /* ---------- 블로그 포스트 ---------- */
+        .blog-post {
+            background: rgba(255,255,255,0.02);
+            border: var(--border-w) solid var(--accent);
+            padding: 2.5rem 2rem;
+            box-shadow: var(--shadow);
+        }
+        .blog-post h1 {
+            font-family: var(--font-mono);
+            font-size: 2.6rem;
+            font-weight: 900;
+            line-height: 1.1;
+            text-transform: uppercase;
+            color: var(--accent);
+            margin-bottom: 0.75rem;
+            letter-spacing: -0.02em;
+            word-break: break-word;
+        }
+        .blog-meta {
+            display: flex;
+            gap: 1.5rem;
+            font-family: var(--font-mono);
+            font-size: 0.8rem;
+            color: #888;
+            border-bottom: 1px solid #222;
+            padding-bottom: 1rem;
+            margin-bottom: 2rem;
+        }
+        .blog-meta span { display: flex; align-items: center; gap: 0.4rem; }
+        .blog-meta .author::before { content: '✎ '; color: var(--accent2); }
+        .blog-meta .date::before { content: '⏲ '; color: var(--accent3); }
+        .blog-meta .tag::before { content: '⌗ '; color: var(--accent); }
+
+        .blog-content p {
+            margin-bottom: 1.6rem;
+            font-size: 1.05rem;
+            color: #d0d0d0;
+        }
+        .blog-content strong { color: var(--accent2); font-weight: 700; }
+        .blog-content .highlight-box {
+            background: #12141a;
+            border-left: 6px solid var(--accent2);
+            padding: 1.5rem;
+            margin: 2rem 0;
+            font-family: var(--font-mono);
+            font-size: 0.95rem;
+            box-shadow: -4px 4px 0 rgba(255,0,85,0.3);
+        }
+        .blog-content .cta-block {
+            background: rgba(0,255,200,0.06);
+            border: 2px dashed var(--accent);
+            padding: 2rem;
+            text-align: center;
+            margin: 2.5rem 0 0;
+        }
+        .blog-content .cta-block p { margin-bottom: 1rem; }
+        .blog-content .cta-phone {
+            display: inline-block;
+            font-family: var(--font-mono);
+            font-size: 2.2rem;
+            font-weight: 800;
+            color: var(--accent);
+            text-shadow: 0 0 18px var(--accent);
+            letter-spacing: 0.06em;
+            border: 3px solid var(--accent);
+            padding: 0.4rem 1.2rem;
+            background: #0b0c0e;
+            transition: 0.25s;
+        }
+        .blog-content .ct
+</body>
+</html>
